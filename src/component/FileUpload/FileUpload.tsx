@@ -79,12 +79,12 @@ export const FileUpload: React.FC = () => {
                             alt="Upload Icon"
                             className="w-24 h-24 mb-2"
                         />
-                        <p className="text-small font-semibold">Drag and Drop the files (.zip)</p>
-                        <p className="text-small font-bold">or</p>
+                        <p className="text-sm font-semibold">Drag and Drop the files (.zip)</p>
+                        <p className="text-sm font-bold">or</p>
                         <button
                             type="button"
                             onClick={handleCustomButtonClick}
-                            className="px-4 py-2 bg-blue-500 text-small text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+                            className="px-4 py-2 bg-blue-500 text-xs text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
                         >
                             Upload Files
                         </button>
@@ -137,7 +137,7 @@ export const FileUpload: React.FC = () => {
                                 </>
                         ) : (
                             <div className="w-full h-full flex justify-center items-center">
-                                <p className="text-small font-semibold text-gray-500 text-center">
+                                <p className="text-sm font-semibold text-gray-500 text-center">
                                     No Files Uploaded Yet
                                 </p>
                             </div>

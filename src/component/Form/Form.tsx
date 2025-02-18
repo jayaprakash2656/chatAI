@@ -11,7 +11,7 @@ export const FormComponnt = () => {
         <h6 className="text-blueGray-700 text-xl font-bold">
           Complaince Report
         </h6>
-        <button className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150" type="button">
+        <button className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150" type="button">
           History
         </button>
       </div>
@@ -26,7 +26,7 @@ export const FormComponnt = () => {
         </div>
         <hr className="mt-6 border-b-1 border-blueGray-300"/>
 
-        <h6 className="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+        <h6 className="text-blueGray-900 text-sm mt-3 mb-6 font uppercase">
           Prompt Here
         </h6>
         <div className="flex flex-wrap">
@@ -36,6 +36,14 @@ export const FormComponnt = () => {
             </div>
           </div>
         </div>
+                       <div className="flex justify-end mt-2">
+                    <button
+                        type="button"
+                        className="bg-blue-500 text-white active:bg-blue-600 font text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+                    >
+                        Generate
+                    </button>
+                </div>
       </form>
     </div>
   </div>
