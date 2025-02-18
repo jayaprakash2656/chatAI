@@ -12,14 +12,14 @@ export const FileUpload: React.FC = () => {
         .map((ext) => `.${ext}`)
         .join(",");
 
-    const handleSubmit = () => {
-        if (selectedFiles.length === 0) {
-            setError("File is required");
-        } else if (!error) {
-            setSelectedFiles([]);
-            setError("");
-        }
-    };
+    // const handleSubmit = () => {
+    //     if (selectedFiles.length === 0) {
+    //         setError("File is required");
+    //     } else if (!error) {
+    //         setSelectedFiles([]);
+    //         setError("");
+    //     }
+    // };
 
     const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
         const newFilesArray = Array.from(event.target.files || []);
